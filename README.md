@@ -16,20 +16,35 @@ You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
 ### Setup
 
-- Clone this repo locally using git in the command line with the following command
-```ruby
-> https://github.com/RWUBAKWANAYO/Blog-app.git
-```
-- Alternatively, you can just download the complete zip file and extract the folder in your directory
+- To get local copy:
+  - Clone this repo locally using git in the command line with the following command
+  
+    ```ruby
+    > https://github.com/RWUBAKWANAYO/Blog-app.git
+    ```
+  - Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+- Run bundle install, to install all gems for the project.
+- To run the migration copy and paste this command in your terminal:
+
+  ```ruby
+  db:migrate
+  ```
 
 ### Usage
 
-In the project directory,open terminal and run this command:
+Run this command to start the project locally:
 
-```ruby
-> rails server
-```
+  ```ruby
+  > rails server
+  ```
+### Testing
 
+This command will run all the tests in your terminal:
+
+  ```ruby
+  > rspec
+  ```
 ## Authors
 :bust_in_silhouette: **RWUBAKWANAYO**
 - GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
