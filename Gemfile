@@ -16,6 +16,8 @@ gem 'childprocess'
 
 gem 'ffi'
 
+gem 'rails-controller-testing'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
