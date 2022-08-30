@@ -4,8 +4,8 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET /index' do
     before(:example) do
       get '/users/1/posts'
-    end 
-    
+    end
+
     it 'return correct response' do
       expect(response).to have_http_status(:ok)
     end
@@ -22,8 +22,8 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET /show' do
     before(:example) do
       get '/users/1/posts/1'
-    end 
-    
+    end
+
     it 'return correct response' do
       expect(response).to have_http_status(:ok)
     end
