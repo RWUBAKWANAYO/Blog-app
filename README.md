@@ -43,7 +43,7 @@ Run this command to start the project locally:
 This command will run all the tests in your terminal:
 
   ```ruby
-  > rspec
+  > rspec spec
   ```
 ## Authors
 :bust_in_silhouette: **RWUBAKWANAYO**
