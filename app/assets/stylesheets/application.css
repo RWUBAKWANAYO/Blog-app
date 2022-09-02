@@ -1,140 +1,185 @@
-*,
-body {
+*,body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   color: #000;
 }
-
-body {
+body{
   width: 100%;
 }
-
-a {
+a{
   text-decoration: none;
 }
-
-section {
+section{
   width: 70%;
-  margin: 40px auto;
+  margin:40px auto;
 }
 
-h2 {
+h1{
+  font-size: 35px;
+font-weight: 700;
+text-transform: uppercase;
+}
+h2{
   font-size: 28px;
-  font-weight: 700;
+font-weight: 700;
 }
-
-h4 {
+h4{
   font-size: 17px;
-  font-weight: 600;
-  line-height: 1.5;
+font-weight: 600;
+line-height: 1.5;
 }
-
-p {
+p{
   font-size: 15px;
-  font-weight: 600;
-  line-height: 1.5;
+font-weight: 600;
+line-height: 1.5;
 }
 
-button {
+button{
   padding: 10px 40px;
   border: 2px #000 solid;
   background-color: transparent;
-  box-shadow: 4px 4px 1px rgb(0, 0, 0);
+  box-shadow: 4px 4px 1px rgb(0,0,0);
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
 }
-
-.user-card-cont {
+input, textarea{
+  font-size: 15px;
+outline: none;
+background-color: transparent;
+resize: vertical;
+}
+.user-card-cont{
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-
-.user-card-cont img {
+.user-card-cont img{
   border: 2px #000 solid;
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
-
-.user-card-cont div {
+.user-card-cont div{
   width: calc(95% - 140px);
   border: 2px #000 solid;
   padding: 20px;
 }
-
-.user-card-cont div h4 {
-  text-align: end;
+.user-card-cont div h4{
+text-align: end;
 }
 
-.bio-wrapper {
+.bio-wrapper{
   border: 2px #000 solid;
   padding: 10px 10px 40px 10px;
   margin-bottom: 40px;
 }
-
-.list-cont li {
-  margin-bottom: 40px;
+.list-cont li{
+margin-bottom: 40px;
 }
-
-.list-cont li,
-.post-list-cont li,
-.comments-list-cont {
-  list-style: none;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.5;
-  border: 2px #000 solid;
-  padding: 10px 10px 40px 10px;
+.list-cont li,.post-list-cont li,.comments-list-cont{
+list-style: none;
+font-size: 15px;
+font-weight: 600;
+line-height: 1.5;
+border: 2px #000 solid;
+padding: 10px 10px 40px 10px;
 }
-
-.list-cont li span,
-.post-list-cont li span {
+.list-cont li span, .post-list-cont li span{
   width: 100%;
   display: flex;
   justify-content: flex-end;
   font-size: 13px;
   font-weight: 700;
 }
-
-.btn-wrapper {
+.btn-wrapper{
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
-.list-wrapper {
+.list-wrapper{
   display: grid;
   row-gap: 1px;
 }
-
-.comments-list-cont {
+.comments-list-cont{
   margin-bottom: 40px;
 }
-
-.post-wrapper {
+.post-wrapper{
   display: grid;
   row-gap: 10px;
   border: 2px #000 solid;
   padding: 10px 10px 40px 10px;
   margin-bottom: 1px;
 }
-
-.post-wrapper div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.post-wrapper div{
+width: 100%;
+display: flex;
+justify-content: space-between;
 }
-
-.post-wrapper div span:first-child {
+.post-wrapper div span:first-child{
   font-size: 17px;
   font-weight: 600;
 }
-
-.post-wrapper div span:last-child {
+.post-wrapper div span:last-child{
   font-size: 13px;
   font-weight: 700;
+}
+.create-btn{
+  width: 100%;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.submit-btn{
+  padding: 10px 0;
+  width: 200px;
+  border: 2px #000 solid;
+  background-color: transparent;
+  box-shadow: 4px 4px 1px rgb(0,0,0);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.comment-form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px #000 solid;
+  margin-top: 20px;
+}
+.comment-text-cont{
+  padding: 5px;
+width: calc(100% - 210px);
+font-size: 15px;
+border: none;
+}
+.post-form-cont{
+  width: 450px;
+  margin:40px auto;
+  display: grid;
+  row-gap: 15px;
+}
+.post-form{
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 5px;
+}
+.label{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.title-input, .text-input{
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px #000 solid;
+}
+.text-input{
+  height: 200px;
+  margin-bottom: 20px;
+}
+#post-btn{
+  width: 100%;
+  text-transform: uppercase;
 }
