@@ -50,6 +50,12 @@ This command will run all the tests in your terminal:
 - GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
 - LinkedIn: [Rwubakwanayo](https://www.linkedin.com/in/rwubakwanayo-olivier)
 
+👤 **Artur Gouveia**
+
+- GitHub:[@githubarturgouve](https://github.com/Arturgouveia1970)
+- LinkedIn:[ArturGouve](https://www.linkedin.com/in/artur-gouveia-323868197/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
