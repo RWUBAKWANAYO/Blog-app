@@ -1,6 +1,6 @@
 # Blog app
 
-> A blog made by Ruby on Rails.
+> Microverse Module 05 Project: This is an educational project to create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 This is an educational project for learning Ruby on Rails.
 
